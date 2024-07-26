@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: rgb(214, 21, 21);
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav a {
+    color: rgb(248, 250, 245);
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+header .search-bar input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.main-banner {
+    background: url('banner.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+    color: rgb(173, 222, 75);
+}
+
+.main-banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.main-banner button {
+    background-color: #FF9800;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.featured-categories, .popular-products, .sustainability-highlights {
+    padding: 50px 20px;
+    text-align: center;
+    color: #37067d;
+}
+
+.category-grid, .product-carousel, .highlight-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.category-item, .product-item, .highlight-item {
+    background-color: #d2dcda;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.product-item img {
+    width: 100%;
+    border-bottom: 1px solid #e7e1e1;
+    margin-bottom: 10px;
+}
+
+.product-info h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-info p {
+    color: #4CAF50;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product-info button {
+    background-color: #FF9800;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(231, 233, 224);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links a, .social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.newsletter input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    background-color: #FF9800;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
